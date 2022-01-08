@@ -1,0 +1,18 @@
+.what_we_do{
+    display:grid;
+    display:-ms-grid;
+    display:-moz-grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows:auto;
+    grid-column-gap: 2%;
+}
+
+.print_image{
+    width:100%;
+    height:auto;
+}
+
+.print_image > img {
+    width:100%;
+    height:auto;
+}

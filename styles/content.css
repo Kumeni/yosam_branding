@@ -1,0 +1,146 @@
+.content{
+    min-height:89vh;
+    padding:1rem;
+    border-bottom:1px solid rgb(210, 210, 210);
+    position:relative;
+    background-color:rgb(240, 240, 240);
+}
+
+@media (max-width:425px){
+    .content{
+        min-height:82vh;
+    }
+}
+
+.landing{
+    display:grid;
+    display:-ms-grid;
+    display:-moz-grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content max-content;
+    align-content:end;
+    padding:1rem;
+    text-align:center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(160, 160, 160, 0.4)), url("../public/background/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.jpg") ;
+    background-position:center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landing > div:first-of-type > p {
+    /* color:rgb(240, 240, 240); */
+    /* color: fuchsia; */
+    color: indigo;
+    color: lightcoral;
+    color: lightseagreen;
+    color: lime;
+}
+
+.landing > div:first-of-type > p:last-of-type{
+    margin-top:1rem;
+}
+
+.landing > div:last-of-type{
+    text-align: center;
+    margin:2rem auto 1rem auto;
+}
+
+.content h2{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:normal;
+    margin:0.5rem 0rem;
+}
+
+.our_services > div:first-of-type > p {
+    margin-bottom:1rem;
+}
+.our_services{
+    padding:4rem 1.5rem;
+}
+
+.our_services ul{
+    list-style: none;
+    text-align:left;
+    margin:2rem 1rem 4rem 1rem;
+}
+
+.our_services li{
+    margin:0.6rem 0rem;
+}
+.our_services ul li a{
+    text-decoration: none;
+}
+
+.center{
+    margin:2rem auto 0rem auto;
+}
+
+.left{
+    margin:2rem auto 0rem 1rem;
+}
+
+.right{
+    margin:2rem 1rem 0rem auto;
+}
+
+.service{
+    padding:2rem 1rem;
+}
+
+.service h2{
+    text-align: center;
+}
+
+.service p{
+    text-align:center;
+}
+
+.service_image{
+    width:60vw;
+    height:60vw;
+    /* border-radius:10px 0px; */
+    border-radius:30vw;
+    overflow: hidden;
+    margin:2rem auto 1rem auto;
+}
+
+.service_image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.service > p{
+    margin:2rem 0rem 1rem 0rem;
+}
+
+.service > div:nth-of-type(2){
+    margin-top:2.5rem;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows:auto;
+    justify-content: space-between;
+}
+
+.service > div:nth-of-type(2) > a, .service > div:nth-of-type(2) > button{
+    padding:1rem 2rem;
+    border-radius:5px;
+    box-shadow:2px 2px 3px rgba(210, 210, 210, 0.9);
+}
+.service > div:nth-of-type(2) > a{
+    /* border:1px solid rgb(210, 210, 210); */
+    text-decoration:none;
+    color:black;
+    background-color: rgb(252, 252, 252);
+}
+.service > div:nth-of-type(2) a:hover{
+    cursor: pointer;
+}
+
+.service > div:nth-of-type(2) > button{
+    background-color:rgb(27, 110, 219);
+    color:white;
+    border:none;
+}
