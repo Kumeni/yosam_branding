@@ -54,19 +54,21 @@ section ol li{
     color:black;
     font-weight:500;
     font-size:1.6rem;
-    margin:1rem auto 1rem auto;
-    border-bottom:2px solid rgb(245, 142, 8);
-    width:max-content;
+    margin:4rem auto 4rem auto;
+    text-align:center;
+    /* border-bottom:2px solid rgb(245, 142, 8); */
 }
-
-.introduction > p:last-of-type{
+.introduction p{
+    margin-bottom:4rem;
+}
+/*.introduction > p:last-of-type{
     border-left:2px solid rgb(245, 142, 8);
     padding:1rem 0rem 1rem 0.5rem;
     background-color:white;
-}
+}*/
 
 section button{
-    padding:0.5rem 1rem;
+    padding:1rem 2rem;
     border-radius:5px;
     box-shadow:2px 2px 3px rgba(210, 210, 210, 0.9);
     border:none;

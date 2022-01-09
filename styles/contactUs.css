@@ -1,5 +1,6 @@
 .contact_us_section{
-    background-color:rgba(15, 15, 15, 0.7);
+    /* background-color:rgba(15, 15, 15, 0.7); */
+    background-color: rgba(255, 217, 0, 0.9);
     position:fixed;
     top:0;
     bottom:0;
@@ -14,13 +15,18 @@
     display:none;
     transition:background-color 1s;
 }
+
 .close{
     text-align: right;
     padding:0rem 2rem;
 }
+
 .close > span{
     font-size:2.5rem;
+    font-weight:lighter;
+    font-weight: 300;
 }
+
 .contact_us_section > div:last-of-type{
     display:grid;
     display:-ms-grid;
@@ -29,5 +35,5 @@
     grid-template-rows: auto auto;
     justify-content: center;
     align-content: center;
-    background-color: rgba(255, 217, 0, 1);
+    background-color: transparent;
 }

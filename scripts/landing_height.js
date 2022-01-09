@@ -3,7 +3,7 @@ const handleLandingHeight = () => {
     if(landing !== null && header !== null){
         let windowHeight = window.innerHeight, headerHeight = header.getBoundingClientRect().height;
         
-        landing.style.height = (windowHeight - headerHeight) + "px";
+        landing.style.height = (windowHeight - headerHeight)+1 + "px";
     }
 }
 

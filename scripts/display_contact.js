@@ -9,9 +9,9 @@ const handleContactUsClick = event => {
     }
 
     contact_us_section.style.display = "grid";
-    contact_us_section.style.backgroundColor = "white";
+    //contact_us_section.style.backgroundColor = "white";
     setTimeout(()=>{
-        contact_us_section.style.backgroundColor = "rgba(255, 217, 0, 0.9)";
+        //contact_us_section.style.backgroundColor = "rgba(15, 15, 15, 0.7)";
     }, 200);
     
 }
