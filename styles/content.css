@@ -59,13 +59,18 @@
 }
 .our_services > div:first-of-type{
     margin-bottom:4rem;
-    border:1px solid rgb(220, 220, 220); 
-    padding:3rem 1rem;
-    background-color:gold;
+    /* border:1px solid rgb(220, 220, 220);  */
+    /* padding:3rem 1rem; */
+    /* background-color:gold; */
     /* color:white; */
 }
+
+.our_services > div:first-of-type > p:first-of-type i{
+    font-size:2rem;
+    font-weight:600;
+    color:black;
+}
 .our_services > div:first-of-type > p{
-    color:white;
 }
 
 .our_services ul{
