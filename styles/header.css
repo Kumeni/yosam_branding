@@ -23,6 +23,11 @@ header h1{
     margin:0;
 }
 
+header a{
+    color:black;
+    text-decoration:none;
+}
+
 .menu_bars{
     width:25px;
     height:25px;
