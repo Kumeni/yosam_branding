@@ -15,7 +15,7 @@ header{
     /* border-bottom:1px solid rgb(210, 210, 210); */
 }
 
-header > h1{
+header h1{
     /* font-family: Arial, Lato, Helvetica, sans-serif; */
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
