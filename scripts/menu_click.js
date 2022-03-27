@@ -12,6 +12,7 @@ const handleMenuClick = () => {
         }
         
         lastScrollPos = window.scrollY;
+        window.scrollTo(0,0);
         menuInfoHeight = menu_info.getBoundingClientRect().height;
 
         main.style.height = menuInfoHeight + "px";
@@ -31,7 +32,8 @@ const handleMenuClick = () => {
         main.style.height = "auto";
         menu_info.style.marginLeft = -window.innerWidth +"px";
         footer.style.display = "block";
-
+        if(lastScrollPos !== undefined)
+            window.scrollTo(0, lastScrollPos);
         menuState = "CLOSED";
     }
     

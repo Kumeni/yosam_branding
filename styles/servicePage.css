@@ -11,6 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height:82vh;
+    transition:height 0.5s;
 }
 .landing > div:first-of-type{
     align-self:center;
@@ -69,6 +70,13 @@ section ol li{
     font-size:1.4rem;
     margin-bottom:1rem; 
 }
+
+.introduction p:nth-of-type(2){
+    font-weight:500;
+    font-size:1.5rem;
+}
+
+
 /*.introduction > p:last-of-type{
     border-left:2px solid rgb(245, 142, 8);
     padding:1rem 0rem 1rem 0.5rem;
