@@ -27,6 +27,28 @@
     background-repeat: no-repeat;
 }
 
+@media (max-width:375px){
+    .landing > div h2{
+        font-size:1.5rem;
+    }
+}
+
+@media (min-width:375px)  and (max-width:1200px){
+    .landing > div h2{
+        color:white;
+        font-size:2rem;
+        font-weight:600;
+    }
+}
+@media (min-width:1200px){
+    .landing > div h2{
+        font-size:4rem;
+        font-weight:500;
+        color:gold;
+        background-color:rgba(0, 0, 0, 0.15);
+    }
+}
+
 .landing > div:first-of-type > p {
     /* color:rgb(240, 240, 240); */
     /* color: fuchsia; */

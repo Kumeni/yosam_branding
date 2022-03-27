@@ -52,14 +52,22 @@ section ol li{
 
 .introduction > div:first-of-type > h1{
     color:black;
-    font-weight:500;
-    font-size:1.6rem;
-    margin:4rem auto 4rem auto;
-    text-align:center;
+    font-weight:600;
+    font-size:1.7rem;
+    margin:1rem auto 1rem 0.5rem;
+    /* text-align:center; */
     /* border-bottom:2px solid rgb(245, 142, 8); */
 }
+.introduction > div:first-of-type{
+    border-left:3px solid gold;
+}
 .introduction p{
-    margin-bottom:4rem;
+    margin-bottom:1rem;
+}
+.introduction > p:first-of-type{
+    font-weight:500;
+    font-size:1.4rem;
+    margin-bottom:1rem; 
 }
 /*.introduction > p:last-of-type{
     border-left:2px solid rgb(245, 142, 8);
