@@ -25,6 +25,7 @@
     margin-bottom:3rem;
     border-left:2px solid #FED700;
     padding-left:1rem;
+    max-width:1440px;
 }
 
 .service_right_info p{

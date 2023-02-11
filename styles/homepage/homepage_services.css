@@ -1,0 +1,38 @@
+.business_cards .service_right_image img{
+    width:550px;
+}
+
+.branded_dustcoats .service_left_info{
+    max-width:600px;
+}
+.brochures .service_right_image img{
+    width:600px;
+}
+
+.branded_caps .service_right_image img{
+    width:550px;
+}
+
+.branded_mugs .service_left_info{
+    max-width: 600px;
+}
+
+.branded_mugs .service_left_image img{
+    width:400px;
+}
+
+.branded_bottles .service_right_image img{
+    width:580px;
+}
+
+.banners .service_left_image img{
+    width:600px;
+}
+
+.poster_design .service_right_image img{
+    width:500px;
+}
+
+.website_design .service_left_image img{
+    width: 600px;
+}
