@@ -1,0 +1,39 @@
+.pricing .service_right_info ol{
+    position:relative;
+    left:80px;
+}
+
+.pricing .service_right_info .action_buttons{
+    margin-top:2rem;
+    position:relative;
+    left:80px;
+}
+
+.pricing .service_right_info{
+    position: relative;
+}
+
+.pricing .service_right_info h2{
+    font-weight:500;
+}
+
+.pricing .service_right_info div:nth-of-type(4){
+    border:10px solid #FFD700;
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    border-radius:50%;
+    left:60%;
+    bottom: 28%;
+}
+
+.pricing .service_right_info div:nth-of-type(3){
+    border:5px solid #FFD700;
+    background-color: #FFD700;
+    width: 250px;
+    height: 250px;
+    position:absolute;
+    border-radius:50%;
+    bottom:0px;
+    left:40%;
+}

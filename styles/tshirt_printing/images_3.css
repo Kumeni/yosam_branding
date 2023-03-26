@@ -1,0 +1,41 @@
+.images_3{
+    margin:3rem 0rem;
+}
+
+.images_3 > div:nth-of-type(1){
+    display:grid;
+    grid-template-columns: repeat(3, 33%);
+    width:80%;
+    margin:auto;
+}
+
+.images_3 > div:nth-of-type(1) > img{
+    width:500px;
+}
+
+.images_3 > div:nth-of-type(1) > img:nth-of-type(1){
+    position:relative;
+    right:50px;
+}
+
+.images_3 > div:nth-of-type(1) > img:nth-of-type(3){
+    position:relative;
+    right:100px;
+}
+
+.images_3 > div:nth-of-type(1) > img:nth-of-type(2){
+    position:relative;
+    top:130px;
+    right:80px;
+    z-index:1;
+}
+
+.images_3 p{
+    width:max-content;
+    margin:auto;
+    position:relative;
+    right:100px;
+    bottom:60px;
+    font-weight:500;
+    z-index:1;
+}
