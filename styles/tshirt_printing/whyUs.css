@@ -24,7 +24,6 @@
 }
 
 .whyUs > ul > li{
-    font-weight:400;
     margin:1rem auto;
 }
 
@@ -44,6 +43,22 @@
     position:relative;
     left:8rem;
 }
+
+@media (max-width:1024px){
+    .whyUs > ul > li:nth-of-type(2){
+        left:0rem;
+    }
+    .whyUs > ul > li:nth-of-type(3){
+        left:0rem;
+    }
+    .whyUs > ul > li:nth-of-type(4){
+        left:0rem;
+    }
+    .whyUs > ul > li:nth-of-type(5){
+        left:0rem;
+    }
+}
+
 .whyUs > ul{
     max-width:600px;
     /* margin:auto; */
@@ -104,4 +119,33 @@
 .article2 .action_buttons{
     justify-self: center;
     margin:1rem auto;
+}
+
+@media (min-width:425px) and (max-width:768px){
+    .whyUs{
+        padding:0rem 0.5rem 0rem 1.5rem;
+        margin-top:5rem;
+    }
+    .article1{
+        padding:1.5rem;
+    }
+    .article2{
+        padding:2rem;
+    }
+    .article2 ul{
+        padding-left:1rem;
+    }
+}
+
+@media(max-width:425px){
+    .whyUs{
+        padding:0rem 0.5rem 0rem 1.5rem;
+        margin-top:5rem;
+    }
+    .article1, .article2{
+        padding:0.5rem;
+    }
+    .article2 ul{
+        padding-left:1rem;
+    }
 }

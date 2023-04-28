@@ -1,5 +1,7 @@
 .landing{
     display:grid;
+    display:-ms-grid;
+    display:-moz-grid;
     grid-template-columns:auto auto;
     grid-template-rows:auto;
     justify-content: space-between;
@@ -31,7 +33,6 @@
     left:100px;
 }
 .landing_info p{
-    font-weight:400;
     margin-bottom:3rem;
     margin-left:4rem;
 }
@@ -74,7 +75,6 @@
     right:20px;
     border-radius: 125px;
 }
-
 .landing_page_image > img:first-of-type{
     /* position:relative;
     right:3rem; */
@@ -83,11 +83,85 @@
     z-index:1;
     width:500px;
 }
-.landing_page_image_background{
+.landing_page_image{
+    position:relative;
     width:750px;
 }
+
+
 .landing_page_image > img:nth-of-type(2){
     width:600px;
     position:absolute;
     right:0;
+}
+
+@media(max-width:1024px){
+    .landing_page_image_background{
+        width:100vw;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom:5rem;
+        margin:auto;
+    }
+    .landing_page_image{
+        margin:auto 5rem;
+    }
+    .landing_page_image > img:nth-of-type(2){
+        width:650px;
+        right:-120px;
+    }
+    .landing_page_image > img:first-of-type{
+        width:550px;
+        right: unset;
+        left:-100px;
+        
+    }
+}
+
+@media (max-width:1024px){
+    .landing{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    .landing_page_image_background{
+        grid-area:1/ 1/ span 1/ span 1;
+    }
+    .landing_info{
+        grid-area:2/ 1/ span 1/ span 1;
+    }
+    .landing_page_image{
+        margin:auto
+    }
+}
+
+@media (max-width:425px){
+    .landing_info{
+        padding:0.5rem;
+    }
+    .landing_info h1{
+        margin-top:3rem;
+        font-size:1.9rem;
+        padding-left:1rem;
+    }
+    .landing_info p{
+        margin:0rem 1rem 3rem 1rem;
+    }
+    .landing_page_image{
+        width:570px;
+        margin: auto auto 3rem 5.5rem;
+    }
+    .landing_page_image > img:nth-of-type(2){
+        width:550px;
+        right:-120px;
+    }
+    .landing_page_image > img:first-of-type{
+        width:400px;
+        right: unset;
+        left:-100px;
+        
+    }
+    .landing_info > .action_buttons{
+        left:unset;
+        margin:auto;
+    }
 }

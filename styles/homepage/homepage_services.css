@@ -1,38 +1,102 @@
-.business_cards .service_right_image img{
-    width:550px;
+.branded_tshirt .service_left_info,
+.branded_polo_shirts .service_left_info{
+    max-width:550px;
 }
-
-.branded_dustcoats .service_left_info{
+.business_cards .service_right_info,
+.brochures .service_right_info,
+.branded_dustcoats .service_left_info,
+.branded_caps .service_right_info,
+.branded_bottles .service_right_info,
+.banners .service_left_info,
+.poster_design .service_right_info,
+.website_design .service_left_info{
     max-width:600px;
+}
+.business_cards .service_right_image img,
+.branded_caps .service_right_image img,
+.poster_design .service_right_image img{
+    width:550px;
 }
 .brochures .service_right_image img{
     width:600px;
 }
-
-.branded_caps .service_right_image img{
-    width:550px;
-}
-
 .branded_mugs .service_left_info{
     max-width: 600px;
 }
-
 .branded_mugs .service_left_image img{
     width:400px;
 }
-
 .branded_bottles .service_right_image img{
     width:580px;
 }
-
-.banners .service_left_image img{
+.banners .service_left_image img,
+.website_design .service_left_image img{
     width:600px;
 }
-
-.poster_design .service_right_image img{
-    width:500px;
+.small{
+    display:none;
+}
+@media(max-width: 1024px){
+    .service_left, .service_right{
+        grid-template-columns: auto;
+        grid-template-rows:auto auto auto;
+    }
+    .service_left_info h2, .service_right_info h2{
+        display:none;
+    }
+    .small{
+        display: block;
+    }
+    .service_left h2, .service_right h2{
+        grid-area: 1/ 1/ span 1/ span 1;
+    }
+    .service_left_image, .service_right_image{
+        grid-area: 2/ 1/ span 1/ span 1;
+    }
+    .service_left_info, .service_right_info{
+        grid-area: 3/ 1/ span 1/ span 1;
+    }
+    .service_left{
+        padding:unset;
+    }
+    .service_left, .service_right{
+        padding:4rem 0rem;
+    }
+    .service_left_info, .service_right_info{
+        width:95%;
+        margin:auto;
+    }
+    .branded_dustcoats .service_left_info{
+        max-width:unset;
+    }
+    .service_left > h2, .service_right > h2{
+        text-align:center;
+        margin-bottom:4rem;
+    }
+    .branded_mugs .service_left_info{
+        max-width: unset;
+    }
+    /*.service_left_image{
+        grid-area:1/2/span 1/ span 1;
+    }*/
 }
 
-.website_design .service_left_image img{
-    width: 600px;
+@media (max-width:425px){
+    .branded_tshirt .service_image img,
+    .branded_polo_shirts .service_image img,
+    .banners .service_left_image img,
+    .website_design .service_left_image img{
+        width:450px;
+    }
+    .business_cards .service_right_image img,
+    .branded_dustcoats .service_image img,
+    .branded_bottles .service_right_image img{
+        width:400px;
+    }
+    .branded_mugs .service_image img{
+        width:350px;
+    }
+    .poster_design .service_right_image img{
+        width: 380px;
+    }
 }

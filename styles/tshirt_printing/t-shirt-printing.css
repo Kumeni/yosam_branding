@@ -25,6 +25,7 @@
     border-radius:50%;
     left:60%;
     bottom: 28%;
+    z-index:-1;
 }
 
 .pricing .service_right_info div:nth-of-type(3){
@@ -36,4 +37,49 @@
     border-radius:50%;
     bottom:0px;
     left:40%;
+    z-index:-1;
+}
+
+@media (max-width:1024px){
+    .pricing{
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .pricing .service_right_image{
+        grid-area:2/ 1/ span 1/ span 1;
+    }
+    .pricing .service_right_info{
+        grid-area:1/ 1/ span 1/ span 1;
+    }
+}
+
+@media (max-width:1024px){
+    .scroll{
+        /* max-width:99vw; */
+        margin:auto;
+        overflow-x: auto;
+    }
+}
+
+@media (max-width:425px){
+    .pricing .service_right_info ol{
+        left:unset;
+        margin-left:2rem;
+    }
+    .pricing .service_right_info .action_buttons{
+        left:unset;
+        margin:2rem auto auto auto;
+    }
+    .pricing .service_right_info div:nth-of-type(4){
+        width: 100px;
+        height: 100px;
+        left:55%;
+        bottom: 55%;
+    }
+    .pricing .service_right_info div:nth-of-type(3){
+        width: 200px;
+        height: 200px;
+        left:30%;
+    }
 }

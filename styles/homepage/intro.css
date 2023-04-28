@@ -6,7 +6,9 @@
     position:relative;
     max-width:1440px;
     margin:0rem auto;
+    overflow: hidden;
 }
+
 .intro_image{
     width:600px;
     height:560px;
@@ -26,6 +28,25 @@
     position:relative;
     left:150px;
     margin:auto;
+}
+@media (max-width:1024px){
+    .intro{
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        min-height: 50vh;
+    }
+    .intro_info{
+        padding-left:unset;
+        margin:auto 3rem auto 3rem;
+        left:unset;
+    }
+    .intro_image{
+        display:none;
+        height:200px;
+    }
+    .intro_image > img{
+        bottom:300px;
+    }
 }
 .intro_circles{
     display:grid;
