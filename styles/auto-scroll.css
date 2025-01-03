@@ -1,0 +1,7 @@
+.auto-scroll{
+    width: max-content;
+    max-width: 95vw;
+    margin: auto;
+    overflow:auto;
+    white-space: nowrap;
+}

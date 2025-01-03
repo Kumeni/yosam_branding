@@ -1,0 +1,218 @@
+.landing .images, .three-images, .article-2 .pros-and-cons{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+}
+
+.landing{
+    margin-top: 0.5rem;
+}
+
+.landing .images{
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    width: max-content;
+    padding:0rem 1rem;
+}
+
+@media (max-width: 425px){
+    .landing .images{
+        column-gap: 0rem;
+    }
+}
+.landing .images img:nth-of-type(even){
+    max-height: 85vh;
+}
+
+.landing .images img:nth-of-type(odd){
+    max-height: 75vh;
+}
+
+@media (max-width: 425px){
+    .landing .images img:nth-of-type(even){
+        max-height: 60vh;
+    }
+
+    .landing .images img:nth-of-type(odd){
+        max-height: 55vh;
+    }
+    
+}
+.landing button{
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 2rem auto;
+}
+
+.banners h1{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-left: 1rem;
+    border-left: 2px solid white;
+    margin-bottom: 2rem;
+}
+
+.banners p, .banners td{
+    font-size:1rem;
+}
+
+.rollup-banner-prices-table{
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.rollup-banner-prices-table td{
+    padding: 0.5rem;
+    /* border: 2px solid white; */
+}
+
+.article-1, .article-2{
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.article-1 p:first-of-type{
+    margin-right: 4rem;
+    margin-bottom:4rem
+}
+
+.article-1 p:last-of-type{
+    margin-left: 4rem;
+}
+
+@media (max-width: 840px){
+    .article-1{
+        padding: 1rem;
+    }
+    .article-1 p:first-of-type{
+        margin-right: 0rem;
+    }
+    .article-1 p:last-of-type{
+        margin-left: 0rem;
+    }
+    .article-2{
+        padding: 1rem;
+    }
+    .banner{
+        padding: 0rem !important;
+    }
+    .banner-content{
+        padding: 1rem;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .article-1 p:first-of-type{
+        margin-bottom: 1.5rem;
+    }
+}
+
+.article-2 h2{
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.article-2 h3{
+    font-size:1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.article-2 .key-features-title{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.article-2 .underline{
+    margin: auto;
+}
+
+.article-2 .features{
+    margin: 2rem;
+}
+
+@media (max-width: 840px){
+    .article-2 .features{
+        margin: 1rem;
+    }
+}
+.article-2 .features strong{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.article-2 .features > p:nth-of-type(odd){
+    margin-bottom: 1rem;
+}
+
+.article-2 .features > p:nth-of-type(even){
+    margin-bottom: 2rem;
+}
+
+.article-2 .pros-and-cons{
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    column-gap: 2rem;
+    margin: 4rem auto;
+}
+@media(max-width: 768px){
+    .article-2 .pros-and-cons{
+        column-gap: 2rem;
+        padding: 0.5rem;
+    }
+}
+
+.article-2 .ideal-use-cases{
+    margin: 4rem auto;
+    max-width: 500px;
+}
+
+@media (max-width: 768px){
+    .article-2 .ideal-use-cases{
+        margin: 4rem 1rem;
+    }
+}
+.article-2 .pros-and-cons .separation{
+    width: 2px;
+    height: 100%;
+    background-color: white;
+}
+
+.three-images{
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+    width: max-content;
+    max-width: 1000px;
+    margin: 4rem auto;
+}
+
+.three-images img{
+    max-height: 90vh;
+}
+
+@media (max-width: 425px){
+    .three-images img{
+        max-height: 70vh;
+    }
+}
+.three-images img:first-of-type{
+    position:relative;
+    top: 2rem;
+}
+
+.three-images img:last-of-type{
+    position: relative;
+    top: -2rem;
+}
+.banner-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all .5s;
+    transform: scale(100%);
+}

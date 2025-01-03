@@ -1,50 +1,140 @@
+.header-items, .header-items > div:first-of-type, .shop-menu, .menu-bars{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+}
+
 header{
-    padding:1.2rem 2rem 1.2rem 2rem;
-    display:grid;
-    display:-ms-grid;
-    display:-moz-grid;
-    grid-template-columns: max-content max-content;
-    grid-template-rows: auto;
-    justify-content: space-between;
-    align-content: center;
-    position:sticky;
-    /* position:fixed; */
+    border-bottom: 1px solid white;
+    position: sticky;
     top:0;
-    z-index:1;
-    background-color:rgba(255, 217, 0, 0.9);
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border-bottom:1px solid rgb(210, 210, 210); */
+    z-index: 10;
+    background-color: rgba(255, 255, 0, 0.7);
 }
 
-header h1{
-    /* font-family: Arial, Lato, Helvetica, sans-serif; */
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-size:1.5rem;
-    margin:0;
+header > div:first-of-type{
+    border-bottom: 2px solid white;
+    padding: 0.3rem 0rem;
 }
 
-header a{
-    color:black;
-    text-decoration:none;
+.header-items{
+    grid-template-columns: repeat(3, max-content);
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    max-width: 1100px;
+    margin: auto;
 }
 
-.menu_bars{
-    width:25px;
-    height:25px;
+@media (max-width: 589px){
+    .header-items{
+        grid-template-columns: repeat(2, max-content);
+    }
+    .header-items ul:last-of-type{
+        display: none;
+    }
+}
+.shop-menu{
+    grid-template-columns: repeat(2, max-content);
+    align-items: center;
+    column-gap:0.5rem;
+}
+.header-items img{
+    width: 120px;
+    position: relative;
+    top:0px;
+    cursor: pointer;
 }
 
-.menu_bars > div {
-    background-color:black;
-    height:2px;
-    margin:5px 0px;
-    transition: width 0.2s;
+.yosambranding-logo:hover{
+    animation: verticalShake .5s ease-in-out;
+    /* animation: rotateRight 1s linear; */
 }
 
-.menu_bars > div:nth-of-type(2){
+.header-items ul a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    font-weight: 500;
+    transition: all .5s;
+    position: relative;
+    top: 0px;
+}
+
+.header-items ul a:hover{
+    animation: verticalShake .5s ease-in-out;
+    /* animation: rotateRight 1s linear; */
+}
+
+@keyframes verticalShake{
+    0%{top: 0px; }
+    50%{top: -5px;}
+    /* 75%{top: 5px; left: 5px;} */
+    100%{top: 0px;}
+}
+
+@keyframes rotateRight{
+    0%{transform: rotate(0deg)}
+    50%{transform: rotate(180deg)}
+    100%{transform: rotate(360deg)}
+}
+
+.header-items > div:first-of-type{
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 2rem;
+}
+
+
+@media (max-width: 589px){
+    .header-items > div:first-of-type{
+        column-gap: 0.5rem;
+    }
+}
+
+.shop-icon{
+    width: 30px !important;
+    display: inline-block;
+}
+.menu-bars{
+    width: 30px;
+    height: 25px;
+    grid-template-rows: repeat(3, auto);
+    align-items: space-between;
+    padding:0.6rem 0.5rem;
+}
+
+.menu-bars:hover{
+    cursor: pointer;
+}
+
+.menu-bars:hover > div{
+    /* background-color: rgb(245, 245, 245); */
+}
+
+.menu-bars > div{
+    height: 2px;
+    /* background-color: white; */
+    background-color: black;
+    /* margin:0.3rem 0; */
+}
+
+.menu-bars > div:nth-of-type(2){
+    width:75%;
+}
+
+.menu-bars > div:nth-of-type(3){
     width:50%;
 }
-.menu_bars > div:last-of-type{
-    width:25%;
-}
 
+.hamburger-menu{
+    position: relative;
+}
+.hamburger-menu > div{
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: yellow;
+    display: none;
+}

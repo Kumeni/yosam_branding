@@ -2,18 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type='text/css' href="./styles/header.css" />
-    <link rel="stylesheet" type='text/css' href="./styles/global.css" />
-    <link rel="stylesheet" type='text/css' href="./styles/content.css" />
-    <link rel="stylesheet" type='text/css' href="./styles/footer.css" />
-    <link rel="stylesheet" type='text/css' href="./styles/googleMaps.css" />
-    <link rel="stylesheet" type='text/css' href="./styles/menu.css" />
-    <link rel="stylesheet" type='text/css' href="./styles/downArrow.css" />
-    <link rel="stylesheet" type='text/css' href="./styles/contactUs.css" />
-    <link rel="shortcut icon" href="./public/icons/yosam_branding_logo.jpg" />
 
+    <link rel="stylesheet" type='text/css' href="./styles/global.css" />
+    <link rel="stylesheet" type='text/css' href="./styles/homepage.css" />
+    <link rel="stylesheet" type='text/css' href="./styles/header.css" />
+    <link rel="stylesheet" type='text/css' href="./styles/footer.css" />
+    <link rel="stylesheet" type='text/css' href="./styles/banners.css" />
+    <link rel="stylesheet" type='text/css' href="./styles/action-buttons.css" />
+    
     <meta 
         name = "description"
         content = "At yosam branding, we provide branding solutions in Nairobi and Kenya through the following services: t-shirt printing, logo design, custom polo t-shirts, website development."
@@ -24,10 +21,6 @@
         content = "yosam, yosam branding, yosambranding, branding in kenya, branding in nairobi, tshirt printing, logo design, custom polo shirts, t-shirt printing in nairobi, tshirt printing in nairobi"
     />
 
-    <title>
-        Yosam Branding - Branding services in Nairobi, Kenya.
-    </title>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K49TY5ERY1"></script>
     <script>
@@ -37,314 +30,421 @@
 
         gtag('config', 'G-K49TY5ERY1');
     </script>
+    <title>Yosam Branding - Crafting Identities, Building Brands</title>
 </head>
 <body>
-    <header id="header">
-        <div onclick = "handleMenuClick(event)" class="menu_bars" id="menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <a href="/">
-            <h1>YOSAM BRANDING</h1>
-        </a>
-    </header>
-
-    <main>
-        <div class = "menu_info">
-            <ul>
-                <li><a href="/t-shirt-printing.html">T-shirt branding</a></li>
-                <li><a href="/branded-custom-polo-shirt.html">Branded custom polo shirts</a></li>
-                <li><a href="/logo-design.html">Logo design</a></li>
-                <!-- <li><a href="#">Contact us</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Screen printing</a></li>
-                <li><a href="#">Overalls branding</a></li>
-                <li><a href="#">School uniform branding</a></li>
-                <li><a href="#">Staff uniform branding</a></li>
-                <li><a href="#">Branded kitchen uproans</a></li>
-                <li><a href="#">Badges printing</a></li>
-                <li><a href="#">Embroidery services </a></li>
-                <li><a href="#">Company profile design</a></li>
-                <li><a href="#">Business cards design</a></li>
-                <li><a href="#">Banners design</a></li>
-                <li><a href="#">Stickers design</a></li>
-                <li><a href="#">Flyers and brochures design</a></li>
-                <li><a href="#">Calendar design and printing</a></li>
-                <li><a href="#">Website design</a></li>
-                <li><a href="#">Hoodie branding</a></li>
-                <li><a href="#">Caps branding</a></li>
-                <li><a href="#">Reflectors branding</a></li>
-                <li><a href="#">Cups and mugs printing</a></li>
-                <li><a href="#">Bottle printing</a></li>
-                <li><a href="#">Pen branding</a></li>
-                <li><a href="#">Flags</a></li> -->
-            </ul>
-            <div class = "footer">
-                <div class = "footerCopyright">
-                    <span>copyright &copy; 2022 | All rights reserved</span>
-                </div>
-            </div>
-        </div>
-        <section class="content landing" id="landing">
-            <div>
-                
-                <h2>WELCOME</h2>
-                <div class="down_arrow">
-                    <img src="./public/down_arrow.png" alt="down arrow" />
-                </div>
-            </div>
-        </section>
-        
-        <section class="content our_services">
-            <div>
-                <p>
-                    <i>
-                        "Effective branding is more than just a logo and pretty colors. It's 
-                        the sum experience of every touch point your customer has with your 
-                        product."
-                    </i>
-                </p>
-                <p>
-                    ~ Seth - Head of Design<br />
-                    Forward partners
-                </p>
-            </div>
-            <p>
-                At Yosam Branding, we help you achieve effective branding via the following services:
-            </p>
-            <ul>
-                <li><a href="/t-shirt-printing.html">T-shirt printing</a></li>
-                <li><a href="/branded-custom-polo-shirt.html">Branded custom polo shirts</a></li>
-                <li><a href="/logo-design.html">Logo design</a></li>
-                <!-- <li><a href="#">Overalls branding</a></li>
-                <li><a href="#">School uniform branding</a></li>
-                <li><a href="#">Staff uniform branding</a></li>
-                <li><a href="#">Branded kitchen uproans</a></li>
-                <li><a href="#">Embroidery services </a></li>
-                <li><a href="#">Company profile design</a></li>
-                <li><a href="#">Business cards design</a></li>
-                <li><a href="#">Banners design</a></li>
-                <li><a href="#">Stickers design</a></li>
-                <li><a href="#">Flyers and brochures design</a></li>
-                <li><a href="#">Calendar design and printing</a></li>
-                <li><a href="#">Website design</a></li>
-                <li><a href="#">Hoodie branding</a></li>
-                <li><a href="#">Caps branding</a></li>
-                <li><a href="#">Reflectors branding</a></li>
-                <li><a href="#">Cups and mugs printing</a></li>
-                <li><a href="#">Pen branding</a></li>
-                <li><a href="#">Flags</a></li> -->
-            </ul>
-            <div class="down_arrow right">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section>
-
-        <section class="content service">
-            <h2>T-SHIRT PRINTING</h2>
-            <div class="service_image">
-                <img src="./public/t-shirts/branded t-shirts yosam branding.jpg" alt="t-shirt branding at yosam branding kenya"/>
-            </div>
-            <p>
-                Are you looking for a <strong>cost-effective, long-lasting</strong> and <strong>functional</strong> promotion item? 
-                <strong>Branded t-shirts</strong> are the best. With great fabric and an amazing print design,
-                <strong>everyone</strong> will willingly wear the promotional t-shirts and become a <strong>brand ambassador</strong> to your business or event. 
-                Let us help you acquire and print high quality t-shirts for your business.
-            </p>
-            <div>
-                <a href="/t-shirt-printing.html">More...</a>
-                <button onclick = "handleContactUsClick(event)">Contact us</button>
-            </div>
-            <div class="down_arrow left">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section>
-
-        <section class="content service">
-            <h2>BRANDED CUSTOM POLO-SHIRT</h2>
-            <div class="service_image">
-                <img src="./public/polo-shirts//polo-shirt-printing.png" alt="polo-shirt branding at yosam branding kenya"/>
-            </div>
-            <p>
-                Your team/staff <strong>wearing branded polo-shirts</strong>
-                makes your business or event <strong>look professional</strong> and you'll gain the trust of your clients. Let us help
-                you acquire and brand polo-shirts for your staff/team.
-            </p>
-            <div>
-                <a href="/branded-custom-polo-shirt.html">More...</a>
-                <button onclick = "handleContactUsClick(event)">Contact us</button>
-            </div>
-            <div class="down_arrow right">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section>
-
-        <section class="content service">
-            <h2>LOGO DESIGN</h2>
-            <div class="service_image">
-                <img src="./public/logo/logo design yosam branding.png" alt="logo design at yosam branding kenya"/>
-            </div>
-            <p>
-                Your <strong>logo</strong> is most likely to be the <strong>first interaction</strong> people have with your company.
-                It is therefore your opportunity to make a <strong>solid first impression</strong>, show you deliver quality 
-                service and visually express your purpose. Let us help you design an effective logo.
-            </p>
-            <div>
-                <a href="/logo-design.html">More...</a>
-                <button onclick = "handleContactUsClick(event)">Contact us</button>
-            </div>
-            <div class="down_arrow left">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section>
-
-        <!-- <section class="content service">
-            <h2>COMPANY PROFILE DESIGN</h2>
-            <div class="service_image">
-                <img src="./public/logo/logo design yosam branding.png" alt="logo design at yosam branding kenya"/>
-            </div>
-            <p>
-                A <strong>well designed and written company profile</strong> makes a <strong>powerful impact and a good
-                first impression</strong> on potential clients.
-                Let us help you design an outstanding company profile.
-            </p>
-            <div>
-                <a href="#">More...</a>
-                <button onclick = "handleContactUsClick(event)">Contact us</button>
-            </div>
-            <div class="down_arrow center">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section>
-
-        <section class="content service">
-            <h2>BUSINESS CARDS DESIGN AND PRINTING</h2>
-            <div class="service_image">
-                <img src="./public/logo/logo design yosam branding.png" alt="logo design at yosam branding kenya"/>
-            </div>
-            <p>
-                Business cards represents your company's brand and oftenly are a way to make a  <strong>quick first impression</strong> on the 
-                recepient. Let us help you design and print your business cards.
-            </p>
-            <div>
-                <a href="#">More...</a>
-                <button onclick = "handleContactUsClick(event)">Contact us</button>
-            </div>
-            <div class="down_arrow right">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section>
-        
-        <section class="content service">
-            <h2>BANNERS DESIGN</h2>
-            <div class="service_image">
-                <img src="./public/logo/logo design yosam branding.png" alt="logo design at yosam branding kenya"/>
-            </div>
-            <p>
-                Making your brand, business or event <strong>outstanding</strong> starts with <strong>getting noticed</strong>. A <strong>well designed</strong> and 
-                printed banner portrays a <strong>good impression</strong> of you and <strong>makes you unique</strong>. Let us help you design
-                and print banners for your business or event.
-            </p>
-            <div>
-                <a href="#">More...</a>
-                <button onclick = "handleContactUsClick(event)">Contact us</button>
-            </div>
-            <div class="down_arrow left">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section>
-        
-        <section class="content service">
-            <h2>STICKERS DESIGN AND PRINTING</h2>
-            <div class="service_image">
-                <img src="./public/logo/logo design yosam branding.png" alt="logo design at yosam branding kenya"/>
-            </div>
-            <p>
-                Making your brand, business or event <strong>outstanding</strong> starts with <strong>getting noticed</strong>. A <strong>well designed</strong> and 
-                printed banner portrays a <strong>good impression</strong> of you and <strong>makes you unique</strong>. Let us help you design
-                and print banners for your business or event.
-            </p>
-            <div>
-                <a href="#">More...</a>
-                <button onclick = "handleContactUsClick(event)">Contact us</button>
-            </div>
-            <div class="down_arrow left">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section>
-        
-        <section class="content service">
-            <h2>WEBSITE DESIGN AND DEVELOPMENT</h2>
-            <div class="service_image">
-                <img src="./public/logo/logo design yosam branding.png" alt="logo design at yosam branding kenya"/>
-            </div>
-            <p>
-                Just like a company profile, your company website is a perfect place to <strong>showcase your products and 
-                services</strong> to your potential clients. Additionally, it gives credibility to your business as it gives
-                an impression of professionalism to your business. Let us help you design, develop and maintain your website which will
-                have ultimate user experience.
-            </p>
-            <div>
-                <a href="#">More...</a>
-                <button onclick = "handleContactUsClick(event)">Contact us</button>
-            </div>
-            <div class="down_arrow left">
-                <img src="./public/down_arrow.png" alt="down arrow" />
-            </div>
-        </section> -->
-        
-        <div class = "our_location iframe">
-            <h2>Our location</h2>
-            <iframe class = "iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7704803814504!2d36.77777881410129!3d-1.313161236024854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11616b6fff21%3A0x47f83d7f26050db!2scustom%20t-shirt%20printing%20store%20yosam%20branding.stall%20223!5e0!3m2!1sen!2ske!4v1640255426204!5m2!1sen!2ske" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
-        </div>
-    </main>
-
-    
-    <footer class="footer">
-        <div class = "footerIcons">
-            <ul>
-                <li><a href="https://wa.me/254704710264?text=Hello Yosam" target="_blank"><img src = "./public//icons/whatsapp.PNG" alt="whatsapp icon" /></a></li>
-                <li><a href="mailto:sandeyosamsolutions@gmail.com" target="_blank"><img src = "./public//icons/gmail.PNG" alt="gmail icon" /></a></li>
-                <!-- <li><a href="#"><img src = "./public//icons/instagram.PNG" alt="instagram icon" /></a></li> -->
-            </ul>
-        </div>
-        <div class = "footerContacts">
-            <a href="mailto:sandeyosamsolutions@gmail.com" target="_blank">sandeyosamsolutions@gmail.com</a></br />
-            <a href="tel:+254704710264" target="_blank">+254704710264</a>
-        </div>
-        <div class = "footerCopyright">
-            <span>copyright &copy; 2022 | All rights reserved</span>
-        </div>
-    </footer>
-
-    <section class = "footer contact_us_section">
-        <div class = "close">
-            <span onclick = "handleContactUsClick(false)">&times;</span>
-        </div>
+    <header>
         <div>
-            <div class = "footerIcons">
+            <div class="header-items">
+                <div>
+                    <div class="menu-bars" onclick="toggleNavigation()">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <img src="./assets/images/Yosam Branding Transparent Logo.png" class="yosambranding-logo"/>
+                </div>
                 <ul>
-                    <li><a href="https://wa.me/254704710264?text=Hello Yosam" target="_blank"><img src = "./public//icons/whatsapp.PNG" alt="whatsapp icon" /></a></li>
-                    <li><a href="mailto:sandeyosamsolutions@gmail.com" target="_blank"><img src = "./public//icons/gmail.PNG" alt="gmail icon" /></a></li>
-                    <!-- <li><a href="#"><img src = "./public//icons/instagram.PNG" alt="instagram icon" /></a></li> -->
+                    <a href="#" class="shop-menu"><img src="./assets/icons/shop icon.png" class="shop-icon icon"/> Shop</a>
+                </ul>
+                <ul>
+                    <a href="#">Contact Us</a>
+                    <a href="#">About Us</a>
                 </ul>
             </div>
-            <div class = "footerContacts">
-                <a href="mailto:sandeyosamsolutions@gmail.com" target="_blank">sandeyosamsolutions@gmail.com</a></br />
-                <a href="tel:+254704710264" target="_blank">+254704710264</a>
+        </div>
+        <div class="hamburger-menu">
+            <div>
+                <p>Humburger menu</p>
             </div>
         </div>
-    </section>
+    </header>
 
-    <div class="whatsappIcon">
-        <a href="https://wa.me/254704710264?text=Hello Yosam" target="_blank">
-            <img src = "./public//icons/whatsapp.PNG" alt="whatsapp icon" />
-        </a>
+    <div class="banners">
+        <div class="banner">
+            <div class="banner-image-container">
+                <img src="./assets/rollup banners/Rollup banners.png" alt="rollup banners by Yosam Branding" />
+            </div>
+            <div class="banner-content">
+                <h2>Rollup Banners</h2>
+                <p>
+                    Our custom banners are designed to make a bold statement and capture attention. 
+                    Whether you need banners for trade shows, events, storefronts, or promotions, we create high-quality, 
+                    eye-catching designs that effectively communicate your brand’s message. Contact us today to start 
+                    creating banners that make a lasting impression.
+                </p>
+                <div class="action-buttons">
+                    <a href="./rollup-banners.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <h2>Branded T-shirts</h2>
+                <p>
+                    We offer high-quality branded T-shirts that make a lasting impression. 
+                    Whether you're looking to promote your business, unite your team, or create a memorable giveaway, 
+                    our expertly designed T-shirts combine style, comfort, and your unique brand identity. 
+                    Contact us today to get started on creating T-shirts that perfectly represent your brand.
+                </p>
+                <div class="action-buttons">
+                    <a href="./branded-tshirts.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <img src="./assets/branded tshirts/Branded t-shirts.png" alt="branded tshirts by Yosam Branding" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-image-container">
+                <img src="./assets/branded polo tshirts/Branded polo shirts.png" alt="branded polo shirts by Yosam Branding" />
+            </div>
+            <div class="banner-content">
+                <h2>Branded Polo Shirts</h2>
+                <p>
+                    We specialize in creating high-quality branded polo-shirts that 
+                    blend professionalism with style. Perfect for corporate events, staff uniforms, or promotional 
+                    giveaways, our polo-shirts are designed to enhance your brand's visibility and appeal. With a 
+                    variety of colors, styles, and customization options, we ensure your polo-shirts perfectly represent 
+                    your brand’s image. Contact us today to start designing polo-shirts that leave a lasting impression.
+                </p>
+                <div class="action-buttons">
+                    <a href="./branded-polo-shirts.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <h2>Company Profiles</h2>
+                <p>
+                    We specialize in creating comprehensive and visually appealing company 
+                    profiles that effectively showcase your business's strengths and achievements. A well-crafted company 
+                    profile is essential for attracting investors, partners, and clients by presenting your brand’s story, 
+                    values, and capabilities in a compelling way. Contact us today to start creating a company profile that 
+                    sets you apart from the competition.
+                </p>
+                <div class="action-buttons">
+                    <a href="./company-profiles.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container company-profile">
+                <!-- <img src="./assets/company profile/company-profile.png" alt="Company profile by Yosam Branding" /> -->
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-image-container">
+                <!-- <img src="./assets/branded polo tshirts/Branded polo shirts.png" alt="branded polo shirts by Yosam Branding" /> -->
+            </div>
+            <div class="banner-content">
+                <h2>Brochures</h2>
+                <p>
+                    Our expertly crafted brochures are designed to captivate your audience and 
+                    effectively communicate your brand’s message. Whether you need brochures for marketing campaigns, 
+                    product launches, or informational purposes, we create visually stunning and content-rich materials 
+                    that leave a lasting impression. Contact us today to start designing brochures that make a 
+                    lasting impact.
+                </p>
+                <div class="action-buttons">
+                    <a href="./brochure-design.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <h2>Logo Design</h2>
+                <p>
+                    We understand that a logo is the cornerstone of your brand identity. Our 
+                    expert logo design services are dedicated to creating unique, memorable logos that perfectly capture 
+                    your brand’s essence and values. Whether you’re launching a new business or rebranding an existing one, 
+                    our creative team works closely with you to develop a logo that stands out and makes a lasting impression. 
+                    Contact us today to start designing a logo that truly represents your brand.
+                </p>
+                <div class="action-buttons">
+                    <a href="./banners.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <img src="./assets/logo design/Logo-design.png" alt="logo design by Yosam Branding" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-image-container">
+                <img src="./assets/3d signs/3D Signs Yosam Branding.png" alt="3D Sign by Yosam Branding by Yosam Branding" />
+            </div>
+            <div class="banner-content">
+                <h2>3D Signs</h2>
+                <p>
+                    Our 3D signs offer a striking and dynamic way to enhance your brand’s visibility 
+                    and presence. Ideal for storefronts, office spaces, trade shows, and events, our custom 3D signs are 
+                    designed to capture attention and leave a memorable impact. With a range of materials, finishes, and 
+                    lighting options, we create eye-catching signs that reflect your brand’s identity and elevate your 
+                    professional image. Contact us today to start creating signs that command attention and elevate 
+                    your space.
+                </p>
+                <div class="action-buttons">
+                    <a href="./3d-signs.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <h2>Branded Bottles</h2>
+                <p>
+                    Our branded bottles combine practicality with effective brand promotion. Perfect for
+                    corporate gifts, event giveaways, or everyday use, our custom bottles are designed to keep your brand
+                    front and center. Contact us today to start designing bottles that make a lasting impression.
+                </p>
+                <div class="action-buttons">
+                    <a href="./branded-bottles.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <img src="./assets/Branded bottles/Branded Bottles Yosam Branding.png" alt="branded tshirts by Yosam Branding" />
+            </div>
+        </div>
+        <div class="banner" style="background-color: greenyellow; padding: 2rem 0rem">
+            <div class="banner-image-container" style="border-radius: 1rem;overflow: hidden;">
+                <img src="./assets/Business cards/Business cards by Yosam Branding.png" alt="business cards by Yosam Branding" />
+            </div>
+            <div class="banner-content">
+                <h2>Business Cards</h2>
+                <p>
+                    We understand that a well-designed business card is a powerful tool for making
+                    memorable first impressions. Our custom business card services are tailored to reflect your brand’s
+                    unique identity with precision and style. Using premium materials and innovative designs, we create
+                    business cards that stand out and leave a lasting impact on your clients and partners. Contact us
+                    today to start designing cards that truly represent your brand.
+                </p>
+                <div class="action-buttons">
+                    <a href="./business-cards.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <h2>Branded Mugs</h2>
+                <p>
+                    Our branded mugs are the perfect blend of functionality and promotional power. 
+                    Ideal for corporate gifts, promotional giveaways, or enhancing your office environment, our custom mugs 
+                    are designed to showcase your brand with every sip. Contact us today to start creating mugs 
+                    that leave a lasting impression.
+                </p>
+                <div class="action-buttons">
+                    <a href="./branded-mugs.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <img src="./assets/Branded mugs/Branded mugs Yosam Branding.png" alt="Branded mugs by Yosam Branding" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-image-container">
+                <img src="./assets/Website Design/Website-design-by-Yosam-Branding.png" alt="Website design template by Yosam Branding" />
+            </div>
+            <div class="banner-content">
+                <h2>Website Design and Development</h2>
+                <p>
+                    At Yosam Branding, we specialize in creating stunning, functional websites that serve as powerful 
+                    tools for your business. Our expert team combines innovative design with cutting-edge technology to 
+                    build websites that not only look exceptional but also provide a seamless user experience. Contact 
+                    us today to discover how we can develop a website that sets you apart from the competition and drives
+                    your business forward.
+                </p>
+                <div class="action-buttons">
+                    <a href="./website-design-and-development.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <h2>T-shirt Printing/Branding</h2>
+                <p>
+                    Our T-shirt printing services bring your vision to life with precision and 
+                    creativity. Whether you need custom designs for corporate events, promotional giveaways, or 
+                    personal projects, our state-of-the-art printing technology ensures vibrant colors and long-lasting 
+                    quality. Contact us today to discover how our expert printing services can help you create eye-catching and impactful 
+                    apparel that truly represents your brand.
+                </p>
+                <div class="action-buttons">
+                    <a href="./t-shirt-printing.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <img src="./assets/branded tshirts/Branded t-shirts.png" alt="branded tshirts by Yosam Branding" />
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-image-container">
+                <img src="./assets/branded hoodies/Branded hoodies Yosam branding.png" alt="branded polo hoodies by Yosam Branding" />
+            </div>
+            <div class="banner-content">
+                <h2>Hoodie Branding</h2>
+                <p>
+                    Our hoodie branding services turn ordinary apparel into powerful marketing tools. Whether for 
+                    corporate branding, team apparel, or promotional giveaways, our expert team ensures your hoodies 
+                    reflect your brand’s unique style and message. Contact us today to see how our hoodie branding 
+                    services can create stylish, impactful apparel for your needs.
+                </p>
+                <div class="action-buttons">
+                    <a href="./hoodie-branding.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+                <!-- <h2>Branded Hoodies</h2>
+                <p>
+                    We offer premium branded hoodies that combine comfort, style, 
+                    and your unique brand identity. Perfect for team uniforms, promotional events, or 
+                    customer giveaways, our hoodies are designed to make a lasting impression.
+                    Contact us today to start creating your custom branded hoodies and leave a lasting 
+                    impression with every wear.
+                </p>
+                <div class="action-buttons">
+                    <a href="#" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div> -->
+            </div>
+        </div>
+        <!-- <div class="banner">
+            <div class="banner-content">
+                <h2>Hoodie Branding</h2>
+                <p>
+                    Our hoodie branding services turn ordinary apparel into powerful marketing tools. Whether for 
+                    corporate branding, team apparel, or promotional giveaways, our expert team ensures your hoodies 
+                    reflect your brand’s unique style and message. Contact us today to see how our hoodie branding 
+                    services can create stylish, impactful apparel for your needs.
+                </p>
+                <div class="action-buttons">
+                    <a href="#" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <img src="./assets/branded tshirts/Branded t-shirts.png" alt="branded tshirts by Yosam Branding" />
+            </div>
+        </div> -->
+        <div class="banner">
+            <div class="banner-content">
+                <h2>Branded Reflectors</h2>
+                <p>
+                    Our branded reflectors offer both safety and style, making them an essential 
+                    addition to your promotional arsenal. Ideal for construction crews, outdoor events, or safety 
+                    initiatives, our high-visibility reflectors ensure your brand stands out day and night. Contact us 
+                    today to discover how our custom reflectors can 
+                    effectively promote your brand while keeping your team and clients safe.
+                </p>
+                <div class="action-buttons">
+                    <a href="./branded-reflectors.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <img src="./assets/Reflector jacket/Branded-Reflector.png" alt="branded reflector by Yosam Branding" />
+            </div>
+        </div>
+        <!-- <div class="banner">
+            <div class="banner-image-container">
+                <img src="./assets/branded tshirts/Branded t-shirts.png" alt="branded tshirts by Yosam Branding" />
+            </div>
+            <div class="banner-content">
+                <h2>Branded Overalls</h2>
+                <p>
+                    We offer premium branded overalls that combine durability, comfort, and your 
+                    unique brand identity. Perfect for industrial settings, corporate events, or promotional activities, 
+                    our overalls are designed to withstand tough conditions while keeping your team looking professional 
+                    and cohesive. Contact us today to start creating overalls that make a lasting impression.
+                </p>
+                <div class="action-buttons">
+                    <a href="#" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-content">
+                <h2>Branded Dustcoats</h2>
+                <p>
+                    Our branded dustcoats offer a perfect blend of functionality and brand visibility. 
+                    Ideal for medical professionals, industrial workers, or promotional events, our dustcoats are designed 
+                    to provide comfort and protection while showcasing your brand. Contact us today to start designing 
+                    dustcoats that leave a lasting impression.
+                </p>
+                <div class="action-buttons">
+                    <a href="#" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+            <div class="banner-image-container">
+                <img src="./assets/branded polo tshirts/Branded polo shirts.png" alt="branded polo shirts by Yosam Branding" />
+            </div>
+        </div> -->
+        <div class="banner">
+            <div class="banner-image-container">
+                <img src="./assets/Branded Caps/Branded Caps Yosam Branding.png" alt="Cap branded Yosam Branding by Yosam Branding" />
+            </div>
+            <div class="banner-content">
+                <h2>Branded Caps</h2>
+                <p>
+                    At Yosam Branding, we bring your vision to life with high-quality branded caps that make
+                    your brand stand out. Our caps are designed to elevate your brand’s image, whether for
+                    corporate events, team uniforms, or promotional giveaways. With a wide range of colors and
+                    styles, we ensure every cap captures your brand's essence. Get in touch with us today to create
+                    caps that leave a lasting impression!
+                </p>
+                <div class="action-buttons">
+                    <a href="./branded-caps.html" class="learn-more">Learn More...</a>
+                    <a href="./contact-us.html" class="contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src = "./scripts/landing_height.js"></script>
-    <script src = "./scripts/menu_click.js"></script>
-    <script src = "./scripts/display_contact.js"></script>
+
+    <footer>
+        <div class="content-wrap">
+            <section class="icons">
+                <div class="yosam-branding-logo">
+                    <img src="./assets/icons/Yosam Branding Logo Black.png" alt="Yosam branding logo" />
+                </div>
+                <div class="socials">
+                    <a href="#" title="Whatsapp Us"><img class="whatsapp-icon" src="./assets/icons/Whatsapp icon.svg" alt="Whatsapp icon"/></a>
+                    <a href="#" title="Email Us"><img src="./assets/icons/gmail icon.svg" alt="Gmail icon"/></a>
+                </div>
+            </section>
+            <section>
+                <ul class="more-links">
+                    <a href="#">Home</a>
+                    <a href="#">Branded polo shirts</a>
+                    <a href="#">Company profiles</a>
+                    <a href="#">Logo design</a>
+                    <a href="#">3D Signs</a>
+                    <a href="#">Branded Mugs</a>
+                    <a href="#">Tshirt printing/branding</a>
+                    <a href="#">Hoodie Branding</a>
+                    <a href="#">Website Design and Development</a>
+                    <a href="#">Branded Overalls</a>
+                    <a href="#">Branded Dustcoats</a>
+                    <a href="#">Branded Bottles</a>
+                    <a href="#">Rollup Banners</a>
+                    <a href="#">Branded tshirts</a>
+                    <a href="#">Bronchures</a>
+                    <a href="#">Branded Reflectors</a>
+                    <a href="#">Business Cards</a>
+                    <a href="#">Branded Caps</a>
+                </ul>
+            </section>
+        </div>
+        <p class="copyright">All Rights Reserved | Copyright &copy; <script>document.write(new Date().getFullYear())</script> | Maintained by <a href="https://yosambranding.art">Yosam Branding</a></p>
+    </footer>
+    <script src="./scripts/navigation.js"></script>
 </body>
 </html>
