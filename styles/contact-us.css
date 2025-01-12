@@ -1,0 +1,40 @@
+.contact-us{
+    padding: 2rem;
+    border: none !important;
+}
+.contact-us h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact-us .underline{
+    margin: 1rem auto;
+}
+
+.contact-us > p{
+    text-align: center;
+}
+
+.contact-us table{
+    margin: 1rem auto;
+}
+
+.contact-us table td{
+    padding: 0.5rem;
+}
+
+.contact-us iframe{
+    width: 95vw;
+    max-width: 1000px;
+    height:50vh;
+    min-height: 200px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+@media (max-width: 1100px){
+    .contact-us iframe{
+        width: 100%;
+    }
+}
