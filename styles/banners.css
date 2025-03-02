@@ -14,6 +14,15 @@
     /* min-height:100vh; */
     /* background-color: yellow; */
 }
+
+.banners-image-right .banner{
+    justify-content: center;
+}
+.banners-image-right .banner > .banner-image-container{
+    grid-area: 1/2/span 1/ span 1;
+    justify-self: left;
+}
+
 @media (max-width: 1024px){
     .banner{
         grid-template-columns: 45vw 45vw;
@@ -30,7 +39,10 @@
     .banner{
         padding: 1rem;
     }
-
+    .banners-image-right .banner > .banner-image-container{
+        grid-area: 1/1/span 1/ span 1;
+        justify-self: unset;
+    }
     .banner:nth-of-type(even) .banner-image-container{
         grid-area: 1/1/span 1/ span 1;
     }
@@ -51,6 +63,7 @@
 .banner-image-container:hover{
     animation-play-state: paused;
 }
+
 .banner-image-container img{
     width: 100%;
     height: 100%;
@@ -78,6 +91,7 @@
         top:0px;
     }
 }
+
 .banner-content{
     /* border: 2px solid black; */
     /* width: 90%; */
