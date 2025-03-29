@@ -1,0 +1,13 @@
+.landing .images{
+    grid-template-columns: auto;
+}
+
+.types-of-reflector-jackets{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.types-of-reflector-jackets .banner{
+    grid-template-columns: 50% 45%;
+    column-gap: 2rem;
+}
