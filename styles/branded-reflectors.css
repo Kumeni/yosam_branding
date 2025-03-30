@@ -5,6 +5,12 @@
 .types-of-reflector-jackets{
     max-width: 1000px;
     margin: auto;
+    margin: 5rem auto;
+    background-color: yellow;
+    background-color: #fff306;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0px 0px 3px #eee429;
 }
 
 .types-of-reflector-jackets .banner{

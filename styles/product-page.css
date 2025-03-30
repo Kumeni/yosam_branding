@@ -141,6 +141,11 @@
     margin: 2rem;
 }
 
+.article-2 .features ul{
+    margin-bottom: 1rem;
+    margin-left:2rem;
+}
+
 @media (max-width: 840px){
     .article-2 .features{
         margin: 1rem;
