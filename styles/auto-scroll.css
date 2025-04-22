@@ -5,6 +5,7 @@
     overflow:auto;
     white-space: nowrap;
 }
+
 .auto-scroll::-webkit-scrollbar{
     display: none;
 }
