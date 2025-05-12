@@ -6,3 +6,8 @@
 .three-images img{
     top:0px !important;
 }
+
+.banner .banner-image-container{
+    max-width: 95vw;
+    margin: auto;
+}
