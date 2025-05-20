@@ -17,3 +17,12 @@
     grid-template-columns: 50% 45%;
     column-gap: 2rem;
 }
+
+@media (max-width: 731px){
+    .types-of-reflector-jackets{
+        padding: 0rem;
+    }
+    .types-of-reflector-jackets .banner{
+        grid-template-columns: 100%;
+    }
+}

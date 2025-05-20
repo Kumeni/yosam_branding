@@ -11,3 +11,11 @@
     max-width: 95vw;
     margin: auto;
 }
+
+.auto-scroll{
+    width: 100vw !important;
+    margin:1rem auto !important;
+    background-color: #e2d811;
+    border-radius: 1rem;
+    box-shadow: inset 0px 0px 8px rgb(60, 60, 60);
+}
