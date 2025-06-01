@@ -8,6 +8,14 @@
     margin-top: 0.5rem;
 }
 
+
+.todays-date{
+    text-align: center;
+    margin: 1rem auto;
+    display: block;
+    font-weight: 500;
+}
+
 .landing .images{
     grid-template-columns: repeat(3, auto);
     justify-content: center;
