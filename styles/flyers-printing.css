@@ -1,0 +1,37 @@
+.banner-content ul{
+    list-style: none;
+}
+
+.banner-content ul li{
+    margin-left: 1rem;
+}
+.banner-content ul h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.flyer-pricing{
+    /* border: 1px solid black; */
+}
+
+.responsive-flyer-pricing{
+    width: max-content;
+    margin: auto;
+    max-width: 95vw;
+    overflow: auto;
+}
+
+.flyer-pricing td, .flyer-pricing th{
+    padding: 1rem;
+}
+
+.flyer-pricing tr:nth-of-type(even){
+    background-color: rgb(216, 216, 216);
+}
+
+.flyer-pricing tr:nth-of-type(odd){
+    background-color: rgb(182, 182, 182);
+}
+
+.flyer-pricing tr:nth-of-type(1){
+    background-color: white;
+}
