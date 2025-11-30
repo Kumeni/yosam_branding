@@ -26,6 +26,7 @@ function autoScrollX(speed){
             elementsScrollState[i].initialScrollPos = elements[i].scrollLeft;
             elementsScrollState[i].currentScrollPos = elements[i].scrollLeft-speed;
         }
+        
         elements[i].scrollTo(elementsScrollState[i].currentScrollPos, 0);
     }
 }
@@ -33,6 +34,7 @@ function autoScrollX(speed){
 let autoScrollContainer = setInterval(() => {
     autoScrollX(1);
 }, 32);
+console.log("Test");
 /**
  * 16 normal speed
  * 32 half normal speed
