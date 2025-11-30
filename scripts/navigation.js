@@ -10,18 +10,22 @@ const toggleNavigation = () => {
          */
         // console.log("show navigation");
         //document.getElementsByClassName("hamburger-menu")[0].style.display = "block";
-        document.getElementsByClassName("hamburger-menu")[0].getElementsByTagName("div")[0].style.width = "100vw";
+        document.getElementsByClassName("hamburger-menu")[0].getElementsByTagName("div")[0].style.overflowX = "hidden";
+        document.getElementsByClassName("hamburger-menu")[0].getElementsByTagName("div")[0].style.transition = "width 2s";
+        document.getElementsByClassName("hamburger-menu")[0].getElementsByTagName("div")[0].style.width = "99vw";
         document.getElementsByClassName("hamburger-menu")[0].getElementsByTagName("div")[0].style.whiteSpace = "unset";
+        document.body.style.overflowY = "hidden";
         navigationState = true;
-
     } else {
         /**
          * Hide the navigation
          */
         // console.log("hide navigation");
         //document.getElementsByClassName("hamburger-menu")[0].style.display = "none";
+        document.getElementsByClassName("hamburger-menu")[0].getElementsByTagName("div")[0].style.overflowX = "hidden";
         document.getElementsByClassName("hamburger-menu")[0].getElementsByTagName("div")[0].style.width = "0vw";
         document.getElementsByClassName("hamburger-menu")[0].getElementsByTagName("div")[0].style.whiteSpace = "nowrap";
+        document.body.style.overflowY = "auto";
         navigationState = false;
     }
 }
