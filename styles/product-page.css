@@ -131,10 +131,10 @@
     }
 }
 
-.article-2 h2{
+/*.article-2 h2{
     font-weight: 500;
     margin-bottom: 2rem;
-}
+}*/
 
 .article-2 h3{
     font-size:1.3rem;
@@ -171,11 +171,11 @@
 }
 
 .article-2 .features > p:nth-of-type(odd){
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .article-2 .features > p:nth-of-type(even){
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .article-2 .pros-and-cons{

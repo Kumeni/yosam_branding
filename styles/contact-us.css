@@ -1,6 +1,9 @@
 .contact-us{
     padding: 2rem;
     border: none !important;
+    background-color: transparent;
+    animation: none;
+    color: black;
 }
 .contact-us h1{
     text-align: center;
