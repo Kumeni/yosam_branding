@@ -1,0 +1,11 @@
+.auto-scroll .three-images img{
+    max-width: 40vw;
+}
+@media (max-width: 425px){
+    .auto-scroll .three-images img{
+    max-width: 90vw;
+}
+}
+.auto-scroll .three-images{
+    column-gap: 2rem;
+}
